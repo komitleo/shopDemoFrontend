@@ -25,7 +25,8 @@ import { MeterialModule } from './meterial.module';
   exports: [
     FooterComponent,
     HeaderComponent,
-    SidebarComponent
+    SidebarComponent,
+    MeterialModule
   ]
 })
 export class SharedModule { }

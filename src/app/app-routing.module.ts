@@ -16,13 +16,11 @@ const routes: Routes = [
     ]
   },
   {
-    
     path:'', component: FullpageComponent, children: [
       {path: 'login', component: LoginComponent}
     ]
   },
   {
-    
     path:'', component: FullpageadminComponent, children: [
       {path: 'admin', component: AdminComponent}
     ]
