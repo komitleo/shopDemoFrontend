@@ -1,9 +1,21 @@
 <h1>Produkty</h1>
-<mat-card>
-    <mat-card-title>Actions Buttons</mat-card-title>
-    <mat-card-subtitle>Start</mat-card-subtitle>
-    <mat-card-actions>
-      <button mat-button>LIKE</button>
-      <button mat-button>SHARE</button>
+<mat-card *ngFor="let product of products">
+  <div flexLayout="row">
+      <div flexLayout="column" fxFlex>
+          <mat-card-title>{{product.name}}</mat-card-title>
+          <mat-card-subtitle>{{product.category}}</mat-card-subtitle>
+          <div flexLayout="row">
+              <img src="/assets/placeholder.png" mat-card-lg-image class="image-product">
+              <mat-card-content fxFlex class="product-content">{{product.description}}</mat-card-content>
+          </div>
+      </div>
+      <div>
+        <div class="price-product">{{product.price}} {{product.currency}}</div>
+      </div>
+  </div>
+    <mat-card-actions fxLayoutGap="20" fxLayoutAlign="end center">
+        <button mat-flat-button color="accent">Pokaż</button>
+        <button mat-flat-button color="primary">Do kozyka</button>
     </mat-card-actions>
-  </mat-card>
+    
+</mat-card> 
