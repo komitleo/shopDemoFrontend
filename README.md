@@ -31,4 +31,4 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 Application using "Angular Flex-Layout". For the proper operation of the application install from npm
 
-`npm i -s @angular/flex-layout @angular/cdk`
+Run `npm i -s @angular/flex-layout @angular/cdk`
