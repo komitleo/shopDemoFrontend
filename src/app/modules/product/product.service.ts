@@ -11,7 +11,7 @@ export class ProductService {
   constructor(private http: HttpClient) { }
 
   getProducts(): Observable<Product[]>{
-    return this.http.get<Product[]>("http://localhost:8080/products");
+    return this.http.get<Product[]>("http:/api/products");
     // [
     //     {
     //       name: "Product 1",
