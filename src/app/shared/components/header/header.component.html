@@ -1,10 +1,12 @@
 <header fxLayoutAlign="start center">
-    <div fxFlex>
-        LOGO
+    <div fxFlex fxLayoutAlign="start end" fxLayoutGap="15">
+        <mat-icon class="logoIcon">store</mat-icon>
+        <span class="logo">{{title}}</span>
     </div>
-    <div>
-        <button routerLink="">Strona główna</button>
-        <button routerLink="/products">Produkty</button>
-        <button routerLink="/login">Zaloguj</button>
+    <div fxLayoutGap="15" fxLayoutAlign="start center">
+        <button mat-raised-button routerLink="">Strona główna</button>
+        <button mat-raised-button routerLink="/products">Produkty</button>
+        <button mat-raised-button color="primary" routerLink="/login">Zaloguj</button>
+        <mat-icon class="shoppingBasket">shopping_basket</mat-icon>
     </div>
 </header>

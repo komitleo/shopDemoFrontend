@@ -25,3 +25,10 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+## Install Angular Flex-Layout
+
+Application using "Angular Flex-Layout". For the proper operation of the application install from npm
+
+Run `npm i -s @angular/flex-layout @angular/cdk`
