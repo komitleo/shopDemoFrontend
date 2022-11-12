@@ -5,6 +5,7 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatCardModule} from '@angular/material/card';
 import {MatListModule} from "@angular/material/list";
 import {MatPaginatorModule} from '@angular/material/paginator';
+import {MatTableModule} from '@angular/material/table';
 
 
 
@@ -17,14 +18,16 @@ import {MatPaginatorModule} from '@angular/material/paginator';
     MatButtonModule,
     MatCardModule,
     MatListModule,
-    MatPaginatorModule
+    MatPaginatorModule,
+    MatTableModule
   ],
   exports: [
     MatIconModule,
     MatButtonModule,
     MatCardModule,
     MatListModule,
-    MatPaginatorModule
+    MatPaginatorModule,
+    MatTableModule
   ]
 })
 export class MeterialModule { }
