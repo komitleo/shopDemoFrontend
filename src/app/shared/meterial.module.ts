@@ -6,6 +6,8 @@ import {MatCardModule} from '@angular/material/card';
 import {MatListModule} from "@angular/material/list";
 import {MatPaginatorModule} from '@angular/material/paginator';
 import {MatTableModule} from '@angular/material/table';
+import {MatExpansionModule} from '@angular/material/expansion';
+
 
 
 
@@ -19,7 +21,8 @@ import {MatTableModule} from '@angular/material/table';
     MatCardModule,
     MatListModule,
     MatPaginatorModule,
-    MatTableModule
+    MatTableModule,
+    MatExpansionModule
   ],
   exports: [
     MatIconModule,
@@ -27,7 +30,8 @@ import {MatTableModule} from '@angular/material/table';
     MatCardModule,
     MatListModule,
     MatPaginatorModule,
-    MatTableModule
+    MatTableModule,
+    MatExpansionModule
   ]
 })
 export class MeterialModule { }
